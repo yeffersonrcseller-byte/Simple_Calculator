@@ -1,0 +1,65 @@
+python calculator.py
+
+==================================================
+       🧮 PYTHON CALCULATOR 🧮
+==================================================
+  1.  Addition
+  2.  Subtraction
+  3.  Multiplication
+  4.  Division
+  5.  Floor Division (//)
+  6.  Modulus (%)
+  7.  Power ⭐
+  8.  Square Root
+  9.  Sine (in degrees)
+ 10.  Cosine (in degrees)
+ 11.  Tangent (in degrees)
+ 12.  Natural Logarithm
+ 13.  History
+  0.  Exit
+==================================================
+
+📌 POWER
+Base: 32
+Exponent: 2
+
+✅ RESULT: 32 ** 2 = 1024
+
+------------------------------------------
+Do another operation? (y/n): n
+
+👋 Goodbye!
+
+
+
+Available Operations
+Option	Operation	Example	Result
+1	Addition	5 + 3	8
+2	Subtraction	10 - 4	6
+3	Multiplication	6 × 7	42
+4	Division	15 ÷ 3	5
+5	Floor Division	17 // 3	5
+6	Modulus	17 % 3	2
+7	Power	2 ** 8	256
+8	Square Root	√144	12
+9	Sine	sin(30°)	0.5
+10	Cosine	cos(60°)	0.5
+11	Tangent	tan(45°)	1.0
+12	Natural Log	ln(2.718)	1.0
+
+
+🧪 Output Examples
+Smart Number Formatting
+Operation	Input	Output
+Power	32 ^ 2	32 ** 2 = 1024 ✅
+Addition	5.0 + 3.0	5 + 3 = 8 ✅
+Square Root	√25	√25 = 5 ✅
+Sine	sin(90°)	sin(90°) = 1 ✅
+Decimal	2.5 ^ 2	2.5 ** 2 = 6.25 ✅
+Error Handling
+Error	Message
+Division by zero	❌ Cannot divide by zero.
+Square root of negative	❌ Cannot calculate square root of a negative number.
+0^negative	❌ Cannot calculate 0 raised to a negative exponent
+0^0	❌ 0^0 is an indeterminate form
+Invalid input	❌ Error: Please enter a valid number.
